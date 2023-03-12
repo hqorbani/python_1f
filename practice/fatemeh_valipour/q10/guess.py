@@ -1,6 +1,7 @@
 import random
-for i in range( 10 ) :
-    a = random . randint( 0 , 100 )
+a = random . randint( 0 , 100 )
+for i in range( 100 , 0 , -10 ) :
+    print ( i )
     b = float(input ( " guess a number: " ))
     if a > b :
         print( " This number is small " ) 
