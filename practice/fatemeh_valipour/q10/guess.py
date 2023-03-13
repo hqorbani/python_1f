@@ -9,5 +9,6 @@ for i in range( 100 , 0 , -10 ) :
         print ( " This number is high " )
     elif a == b :
         print ( " you win! " )
-    else :
-        print ( " you lost! ", a )
+        break
+if a != b :
+    print ( " you lost! ", a )
