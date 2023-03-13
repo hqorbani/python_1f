@@ -11,4 +11,4 @@ for i in range( 100 , 0 , -10 ) :
         print ( " you win! " )
         break
 if a != b :
-    print ( " you lost! ", a )
+    print ( " you lost! ", "the number was" a )
